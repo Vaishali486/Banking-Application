@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<style >
+span{
+color: red;
+}
+h1{
+    text-align: center;
+   color: red;
+}
+.newuser{
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+</style>
+
+<title>Welcome to VA Bank</title>
+
+<body bgcolor="cyan" style="text-align:center">
+
+<form action="log" style="text-align:center" >
+
+    <h1>Welcome to Apna Bank</h1> <br>
+	Accno <span >*</span><input name="an" type="text" placeholder="Enter Your Accountno"> <br>
+	
+    Username <span >*</span><input name="un" type="text" placeholder="Enter Your Username"> <br>
+
+    Password<span>*</span><input name="pw" type="password" placeholder="Enter Your Password"> <br>
+    
+  
+   <button type="submit" class="">Login</button><br>
+
+ 
+
+
+</form>
+<div class="newuser"></div>
+ 
+   New User:<button type="button" class="" onclick="regi()">Register</button>
+</div>
+
+<script>
+
+	
+function regi()
+{
+	window.location.href="Register.html"
+}
+</script>
+
+</body>
+</html>
